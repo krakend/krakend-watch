@@ -1,4 +1,4 @@
-# KrakenD Configuration Testing
+# KrakenD Configuration Watcher
 
 This container allows you to monitor a KrakenD config file for changes and reload KrakenD with the new version.
 
@@ -13,5 +13,5 @@ The default it's `krakend.json`.
 
 Example:
 ```
-docker run -e KRAKEND_CONFIG=krakend.json -p 8000:8000 -it -v $PWD:/etc/krakend devopsfaith/krakend:config-test
+docker run -e KRAKEND_CONFIG=krakend.json -p 8000:8000 -it -v $PWD:/etc/krakend devopsfaith/krakend:config-watcher
 ```
