@@ -1,5 +1,7 @@
 # KrakenD Configuration Watcher
 
+**WARNING** This is a development tool for configuration testing. **DON'T USE IN PRODUCTION**.
+
 This container allows you to monitor a KrakenD config file for changes and reload KrakenD with the new version.
 
 ### Build
