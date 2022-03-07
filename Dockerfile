@@ -1,6 +1,6 @@
 FROM devopsfaith/krakend:latest
 
-LABEL maintainer="dortiz@devops.faith"
+LABEL maintainer="dortiz@krakend.io"
 
 ENV KRAKEND_CONFIG krakend.json
 
