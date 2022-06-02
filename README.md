@@ -1,7 +1,7 @@
 # KrakenD Configuration Watcher
 A Docker image to reload KrakenD when the configuration in the disk changes.
 
-[Documentation](https://www.krakend.io/docs/developer/config-watcher/)
+[Documentation](https://www.krakend.io/docs/developer/hot-reload/)
 
 ### Run
 
