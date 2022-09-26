@@ -7,4 +7,4 @@ reflex:
 	docker run --rm -it -v ${PWD}:/go/bin golang:${GOLANG_VERSION}-alpine${ALPINE_VERSION} sh -c "go install github.com/cespare/reflex@latest"
 
 build: reflex
-	docker build -t devopsfaith/krakend:config-watcher .
+	docker build -t devopsfaith/krakend:watch .
