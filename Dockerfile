@@ -1,4 +1,4 @@
-FROM golang:tip-alpine3.21 as reflex
+FROM golang:tip-alpine3.21 AS reflex
 
 RUN go install github.com/cespare/reflex@latest
 
