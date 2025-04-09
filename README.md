@@ -17,5 +17,5 @@ docker build -t krakend:watch .
 The watch image uses the same parameters as the regular `krakend:latest` Docker image. Example:
 
 ```
-docker run -p 8000:8000 -it -v "$PWD:/etc/krakend" krakend:watch run -c krakend.json
+docker run -p 8080:8080 -it -v "$PWD:/etc/krakend" krakend:watch run -c krakend.json
 ```
